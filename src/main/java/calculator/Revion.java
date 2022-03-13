@@ -13,29 +13,30 @@ public class Revion {
 
         ////// ******how to find the largest number in Array //////
 
-//        int Arr[] = new int[5];
-//        int max = Arr[0];
-//        double sum = 0;
-//
-//        for (int i = 0; i < Arr.length; i++) {
-//            System.out.println("please enter Index of Arr");
-//            Arr[i] = input.nextInt();
-//
-//        }
-//        for (int i = 1; i < Arr.length; i++) {
-//            if (Arr[i] > max) {
-//                max = Arr[i];
-//            }
-//        }
-//
-//        System.out.println("the largest number in Array = " +max);
-//
-//        for (int i = 0; i < Arr.length; i++) {
-//            System.out.println("Index off " + i + "=" + Arr[i]);
-//            sum +=Arr[i];
-//        }
-//        System.out.println("Sum = "+sum);
-//
+        int Arr[] = new int[5];
+        int max = Arr[0]; // [ 0 -> max, 1 , 2 , 3 ,4 ]
+        //                   [ 10 , 30 , 20 , 40 , 7 ]
+        double sum = 0;
+
+        for (int i = 0; i < Arr.length; i++) {
+            System.out.println("please enter Index of Arr");
+            Arr[i] = input.nextInt();
+
+        }
+        for (int i = 1; i < Arr.length; i++) {
+            if (Arr[i] > max) {
+                max = Arr[i];
+            }
+        }
+
+        System.out.println("the largest number in Array = " +max);
+
+        for (int i = 0; i < Arr.length; i++) {
+            System.out.println("Index off " + i + "=" + Arr[i]);
+            sum +=Arr[i];
+        }
+        System.out.println("Sum = "+sum);
+
 //
 //    }
 
@@ -211,6 +212,7 @@ public class Revion {
 //            }
 //
 //        }
+        //////////////////////////
 //        double result = 1;
 //        for (int i = 0; i < 5; i++) {
 //            System.out.println("Pleas Enter Number");
@@ -224,7 +226,7 @@ public class Revion {
 //            }
 //
 //        } System.out.println("result = "+result);
-
+///////////////////////////////////////////////////////////////////////////////////////////////////
 //        int i = 0;
 //        while (i<= 100 ){
 //            if(i%2 ==0){
@@ -232,7 +234,7 @@ public class Revion {
 //            }
 //            i++;
 //        }
-
+/////////////////////////////////////////////////////////////////////////////////
 //        int i = 0;
 //
 //        do {
@@ -299,7 +301,7 @@ public class Revion {
 //        System.out.println("average ="+(h/arr.length));
 //        System.out.println("result = "+h);
 
-
+///////////////////////////////Array Array Array Array Array Array Array ///////////////////////////////////
 //        int arr[][] = new int[2][3];
 //
 //        double sum = 0;

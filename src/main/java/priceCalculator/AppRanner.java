@@ -1,3 +1,4 @@
+
 package priceCalculator;
 
 import java.util.Scanner;
@@ -13,7 +14,7 @@ public class AppRanner {
         String endCall  = input.next();
 
         CostCallCalculator cost = new CostCallCalculator(startCall,endCall);
-        cost.calculateCost();
+        cost.calculateCost(); 
         System.out.println("Cost of Call == "+ cost.calculateCost());
     }
 

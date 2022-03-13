@@ -41,13 +41,12 @@ public class CostCallCalculator {
             e.printStackTrace();
         }
         Calendar cal = Calendar.getInstance();
+        startDiscount = cal.getTime();
         cal.set(Calendar.HOUR_OF_DAY,17);
         cal.set(Calendar.MINUTE,59);
-        startDiscount = cal.getTime();
+        endDiscount = cal.getTime();
         cal.set(Calendar.HOUR_OF_DAY,7);
         cal.set(Calendar.MINUTE,59);
-        endDiscount = cal.getTime();
-
 
         calculateDiscount();
     }
@@ -62,7 +61,7 @@ public class CostCallCalculator {
      void calculateDiscount (){
 
 
-       if(startCall.getTime()>(startDiscount.getTime())){
+       if(startCall.getMinutes()>(startDiscount.getMinutes())){
            isDiscount=true;
        }
         if (calculateMinute()>60){
@@ -71,6 +70,7 @@ public class CostCallCalculator {
 
 
     }
+
     public double calculateCost(){
         //Number of minutes * cost "price" * isdiscount *Iscomition
 
